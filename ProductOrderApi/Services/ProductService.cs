@@ -37,13 +37,11 @@ namespace ProductOrderApi.Services
                     Price = dto.Price,
                     StockQuantity = dto.StockQuantity
                 };
-
                 await _repo.AddAsync(product, ct);
                 await _uow.SaveChangesAsync(ct);
 
                 return new ProductDto(product.Id, product.Name, product.Description, product.Price, product.StockQuantity);
             }
-
             public async Task<ProductDto?> UpdateAsync(Guid id, ProductUpdateDto dto, CancellationToken ct)
             {
                 var product = await _repo.GetByIdAsync(id, ct);
@@ -71,4 +69,3 @@ namespace ProductOrderApi.Services
             }
         }
     }
-
