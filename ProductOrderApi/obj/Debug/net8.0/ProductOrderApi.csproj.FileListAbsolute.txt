@@ -146,3 +146,4 @@ C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\ref\
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\ProductOrderApi.sourcelink.json
