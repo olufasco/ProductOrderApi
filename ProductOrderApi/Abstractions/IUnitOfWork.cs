@@ -1,9 +1,15 @@
-﻿using System.Data;
+﻿using ProductOrderApi.Abstractions.ProductOrder.Application.Abstractions;
+using System.Data;
 
 namespace ProductOrderApi.Abstractions
 {
     public interface IUnitOfWork
     {
+        IProductRepository Products { get; }
+        IOrderRepository Orders { get; }
+        ICartRepository Carts { get; }
+        IUserRepository Users { get; }
+
         Task<int> SaveChangesAsync(CancellationToken ct = default);
 
         Task ExecuteInTransactionAsync(
@@ -11,5 +17,4 @@ namespace ProductOrderApi.Abstractions
             CancellationToken ct,
             IsolationLevel isolationLevel = IsolationLevel.ReadCommitted);
     }
-
 }

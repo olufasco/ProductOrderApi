@@ -1,28 +1,123 @@
 [
   {
-    "ContainingType": "ProductOrderApi.Controllers.OrdersController",
-    "Method": "GetAll",
-    "RelativePath": "api/orders",
+    "ContainingType": "ProductOrderApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProductOrderApi.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.AuthController",
+    "Method": "Me",
+    "RelativePath": "api/Auth/me",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[ProductOrderApi.DTOs.OrderDtos\u002BOrderDto, ProductOrderApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "request",
+        "Type": "ProductOrderApi.Controllers.RegisterRequest",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.CartController",
+    "Method": "GetCart",
+    "RelativePath": "api/Cart/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.CartController",
+    "Method": "AddItem",
+    "RelativePath": "api/Cart/{userId}/items",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ProductOrderApi.DTOs.CartDtos\u002BAddToCartDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.CategoriesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.CategoriesController",
+    "Method": "Create",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "ProductOrderApi.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.OrdersController",
-    "Method": "Get",
-    "RelativePath": "api/orders/{id}",
+    "Method": "GetAll",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.OrdersController",
+    "Method": "GetById",
+    "RelativePath": "api/Orders/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -33,22 +128,33 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProductOrderApi.Controllers.OrdersController",
+    "Method": "Update",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "ProductOrderApi.DTOs.OrderDtos\u002BOrderDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ProductOrderApi.DTOs.OrderDtos\u002BUpdateOrderDto",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.OrdersController",
     "Method": "Delete",
-    "RelativePath": "api/orders/{id}",
+    "RelativePath": "api/Orders/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -63,54 +169,34 @@
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.OrdersController",
-    "Method": "Place",
-    "RelativePath": "api/orders/place",
+    "Method": "Checkout",
+    "RelativePath": "api/Orders/checkout",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "ProductOrderApi.DTOs.OrderDtos\u002BPlaceOrderRequest",
+        "Name": "dto",
+        "Type": "ProductOrderApi.DTOs.OrderDtos\u002BCheckoutDto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ProductOrderApi.DTOs.OrderDtos\u002BOrderDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.ProductsController",
     "Method": "GetAll",
-    "RelativePath": "api/products",
+    "RelativePath": "api/Products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[ProductOrderApi.DTOs.ProductDtos\u002BProductDto, ProductOrderApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.ProductsController",
     "Method": "Create",
-    "RelativePath": "api/products",
+    "RelativePath": "api/Products",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -121,22 +207,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ProductOrderApi.DTOs.ProductDtos\u002BProductDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.ProductsController",
     "Method": "Get",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -147,22 +223,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ProductOrderApi.DTOs.ProductDtos\u002BProductDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.ProductsController",
     "Method": "Update",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/Products/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -178,22 +244,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "ProductOrderApi.DTOs.ProductDtos\u002BProductDto",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ProductOrderApi.Controllers.ProductsController",
     "Method": "Delete",
-    "RelativePath": "api/products/{id}",
+    "RelativePath": "api/Products/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

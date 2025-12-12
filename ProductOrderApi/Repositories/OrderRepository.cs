@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductOrderApi.Abstractions;
+using ProductOrderApi.Data;
 using ProductOrderApi.Models;
 
 namespace ProductOrderApi.Repositories
@@ -13,11 +14,11 @@ namespace ProductOrderApi.Repositories
             await _db.Orders.AddAsync(order, ct);
 
         public Task<Order?> GetByIdAsync(Guid id, CancellationToken ct) =>
-            _db.Orders.Include(o => o.Lines)
+            _db.Orders.Include(o => o.OrderLines)
                       .FirstOrDefaultAsync(o => o.Id == id, ct);
 
         public Task<List<Order>> GetAllAsync(CancellationToken ct) =>
-            _db.Orders.Include(o => o.Lines)
+            _db.Orders.Include(o => o.OrderLines)
                       .AsNoTracking()
                       .ToListAsync(ct);
 

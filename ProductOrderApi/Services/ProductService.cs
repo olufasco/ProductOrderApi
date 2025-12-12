@@ -4,68 +4,107 @@ using ProductOrderApi.Models;
 using static ProductOrderApi.DTOs.ProductDtos;
 
 namespace ProductOrderApi.Services
-{        public class ProductService
+{
+    public class ProductService
+    {
+        private readonly IProductRepository _repo;
+        private readonly IUnitOfWork _uow;
+
+        public ProductService(IProductRepository repo, IUnitOfWork uow)
         {
-            private readonly IProductRepository _repo;
-            private readonly IUnitOfWork _uow;
-
-            public ProductService(IProductRepository repo, IUnitOfWork uow)
-            {
-                _repo = repo;
-                _uow = uow;
-            }
-
-            public async Task<List<ProductDto>> GetAllAsync(CancellationToken ct)
-            {
-                var products = await _repo.GetAllAsync(ct);
-                return products.Select(p => new ProductDto(p.Id, p.Name, p.Description, p.Price, p.StockQuantity)).ToList();
-            }
-
-            public async Task<ProductDto?> GetByIdAsync(Guid id, CancellationToken ct)
-            {
-                var product = await _repo.GetByIdAsync(id, ct);
-                return product is null ? null : new ProductDto(product.Id, product.Name, product.Description, product.Price, product.StockQuantity);
-            }
-
-            public async Task<ProductDto> CreateAsync(ProductCreateDto dto, CancellationToken ct)
-            {
-                var product = new Product
-                {
-                    Id = Guid.NewGuid(),
-                    Name = dto.Name,
-                    Description = dto.Description,
-                    Price = dto.Price,
-                    StockQuantity = dto.StockQuantity
-                };
-                await _repo.AddAsync(product, ct);
-                await _uow.SaveChangesAsync(ct);
-
-                return new ProductDto(product.Id, product.Name, product.Description, product.Price, product.StockQuantity);
-            }
-            public async Task<ProductDto?> UpdateAsync(Guid id, ProductUpdateDto dto, CancellationToken ct)
-            {
-                var product = await _repo.GetByIdAsync(id, ct);
-                if (product is null) return null;
-
-                product.Name = dto.Name;
-                product.Description = dto.Description;
-                product.Price = dto.Price;
-                product.StockQuantity = dto.StockQuantity;
-
-                await _repo.UpdateAsync(product, ct);
-                await _uow.SaveChangesAsync(ct);
-
-                return new ProductDto(product.Id, product.Name, product.Description, product.Price, product.StockQuantity);
-            }
-
-            public async Task<bool> DeleteAsync(Guid id, CancellationToken ct)
-            {
-                var product = await _repo.GetByIdAsync(id, ct);
-                if (product is null) return false;
-
-                await _repo.SoftDeleteAsync(product, "system", ct);
-                await _uow.SaveChangesAsync(ct);
-                return true;
-            }
+            _repo = repo;
+            _uow = uow;
         }
+
+        public async Task<List<ProductDto>> GetAllAsync(CancellationToken ct)
+        {
+            var products = await _repo.GetAllAsync(ct);
+            return products.Select(MapToDto).ToList();
+        }
+
+        public async Task<ProductDto?> GetByIdAsync(Guid id, CancellationToken ct)
+        {
+            var product = await _repo.GetByIdAsync(id, ct);
+            return product is null ? null : MapToDto(product);
+        }
+
+        public async Task<ProductDto> CreateAsync(ProductCreateDto dto, CancellationToken ct)
+        {
+            var product = new Product
+            {
+                Id = Guid.NewGuid(),
+                Sku = dto.Sku,
+                Name = dto.Name,
+                Description = dto.Description,
+                Price = dto.Price,
+                StockQuantity = dto.StockQuantity,
+                CategoryId = dto.CategoryId,
+                Status = dto.Status,
+                Pictures = dto.Pictures.Select(p => new Picture
+                {
+                    Url = p.Url,
+                    AltText = p.AltText,
+                    MimeType = p.MimeType,
+                    SortOrder = p.SortOrder
+                }).ToList()
+            };
+
+            await _repo.AddAsync(product, ct);
+            await _uow.SaveChangesAsync(ct);
+
+            return MapToDto(product);
+        }
+
+        public async Task<ProductDto?> UpdateAsync(Guid id, ProductUpdateDto dto, CancellationToken ct)
+        {
+            var product = await _repo.GetByIdAsync(id, ct);
+            if (product is null) return null;
+
+            product.Sku = dto.Sku;
+            product.Name = dto.Name;
+            product.Description = dto.Description;
+            product.Price = dto.Price;
+            product.StockQuantity = dto.StockQuantity;
+            product.CategoryId = dto.CategoryId;
+            product.Status = dto.Status;
+            product.Pictures = dto.Pictures.Select(p => new Picture
+            {
+                Url = p.Url,
+                AltText = p.AltText,
+                MimeType = p.MimeType,
+                SortOrder = p.SortOrder
+            }).ToList();
+
+            await _repo.UpdateAsync(product, ct);
+            await _uow.SaveChangesAsync(ct);
+
+            return MapToDto(product);
+        }
+
+        public async Task<bool> DeleteAsync(Guid id, CancellationToken ct)
+        {
+            var product = await _repo.GetByIdAsync(id, ct);
+            if (product is null) return false;
+
+            await _repo.SoftDeleteAsync(product, "system", ct);
+            await _uow.SaveChangesAsync(ct);
+            return true;
+        }
+
+        private static ProductDto MapToDto(Product product) =>
+            new ProductDto(
+                product.Id,
+                product.Sku,
+                product.Name,
+                product.Description,
+                product.Price,
+                product.StockQuantity,
+                product.CategoryId,
+                product.Category?.Name ?? string.Empty,
+                product.Status,
+                product.Pictures.Select(p =>
+                    new PictureDto(p.Url, p.AltText, p.MimeType, p.SortOrder)
+                ).ToList()
+            );
     }
+}
