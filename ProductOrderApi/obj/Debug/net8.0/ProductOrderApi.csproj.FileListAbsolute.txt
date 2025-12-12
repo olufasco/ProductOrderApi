@@ -145,5 +145,9 @@ C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\Prod
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\ref\ProductOrderApi.dll
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
-C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\ProductOrderApi.sourcelink.json
+C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\NServiceBus.Core.dll
+C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\bin\Debug\net8.0\NServiceBus.Testing.dll
+C:\Users\USER\source\repos\ProductOrderApi\ProductOrderApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

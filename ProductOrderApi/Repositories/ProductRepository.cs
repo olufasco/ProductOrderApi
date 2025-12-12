@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProductOrderApi.Abstractions;
 using ProductOrderApi.Abstractions.ProductOrder.Application.Abstractions;
+using ProductOrderApi.Data;
 using ProductOrderApi.Models;
 
 namespace ProductOrderApi.Repositories
@@ -11,10 +12,14 @@ namespace ProductOrderApi.Repositories
             public ProductRepository(AppDbContext db) => _db = db;
 
             public Task<Product?> GetByIdAsync(Guid id, CancellationToken ct) =>
-                _db.Products.FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted, ct);
+                _db.Products.Include(p => p.Category)
+                            .Include(p => p.Pictures)
+                            .FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted, ct);
 
             public Task<List<Product>> GetAllAsync(CancellationToken ct) =>
                 _db.Products.Where(p => !p.IsDeleted)
+                            .Include(p => p.Category)
+                            .Include(p => p.Pictures)
                             .AsNoTracking()
                             .ToListAsync(ct);
 

@@ -1,10 +1,41 @@
-﻿namespace ProductOrderApi.DTOs
+﻿using ProductOrderApi.Models;
+
+namespace ProductOrderApi.DTOs
 {
     public class OrderDtos
     {
-        public record OrderLineRequest(Guid ProductId, int Quantity);
-        public record PlaceOrderRequest(List<OrderLineRequest> Lines, string? IdempotencyKey);
-        public record OrderDto(Guid Id, DateTimeOffset CreatedAt, decimal TotalAmount, List<OrderLineDto> Lines);
-        public record OrderLineDto(Guid ProductId, int Quantity, decimal UnitPrice, decimal LineTotal);
+        public record OrderLineDto(
+            Guid Id,
+            Guid ProductId,
+            string Sku,
+            string Name,
+            int Quantity,
+            decimal UnitPrice,
+            decimal LineTotal
+        );
+
+        public record OrderDto(
+            Guid Id,
+            Guid UserId,
+            string CustomerName,
+            decimal TotalAmount,
+            List<OrderLineDto> OrderLines
+        );
+
+        public record CheckoutDto(
+            Guid CartId,
+            string CustomerName
+        );
+        public record UpdateOrderDto(
+            string? CustomerName, 
+            OrderStatus? Status
+        );
+
+        public record PlaceOrderRequest(
+            Guid CartId, 
+            string CustomerName,
+            List<OrderLineDto> OrderLines
+        );
     }
+
 }
