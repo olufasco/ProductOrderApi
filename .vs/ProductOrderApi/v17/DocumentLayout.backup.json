@@ -3,60 +3,188 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\productstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\dtos\\productdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\dtos\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\dtos\\cartdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\dtos\\userdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\authservicewithjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\authservicewithjwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\abstractions\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\abstractions\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\middleware\\validationerrormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\middleware\\validationerrormiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\productorderapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\productorderapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\validation\\registerandloginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\validation\\registerandloginvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\validation\\cartandordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\validation\\cartandordervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\validation\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\validation\\productvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\dtos\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\domain\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\domain\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\abstractions\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,36 +195,8 @@
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\abstractions\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\domain\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\domain\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\abstractions\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\abstractions\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\abstractions\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|c:\\users\\user\\source\\repos\\productorderapi\\productorderapi\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD33C181-58E3-42D8-977F-81C092B924C6}|ProductOrderApi\\ProductOrderApi.csproj|solutionrelative:productorderapi\\dtos\\orderdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,7 +206,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 23,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -169,41 +269,59 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Program.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Program.cs",
-              "RelativeToolTip": "ProductOrderApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABVAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\OrderService.cs",
+              "RelativeToolTip": "ProductOrderApi\\Services\\OrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:40:28.206Z",
+              "WhenOpened": "2025-12-10T06:39:39.738Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\AppDbContext.cs",
-              "RelativeToolTip": "ProductOrderApi\\AppDbContext.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwEkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "ProductOrderApi\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:42:18.465Z"
+              "WhenOpened": "2025-12-10T06:34:14.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\BaseEntity.cs",
-              "RelativeToolTip": "ProductOrderApi\\Models\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\CartService.cs",
+              "RelativeToolTip": "ProductOrderApi\\Services\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:17:24.223Z",
+              "WhenOpened": "2025-12-11T23:21:37.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\CurrentUserService.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "ProductOrderApi\\Services\\CurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T10:25:24.911Z",
               "EditorCaption": ""
             },
             {
@@ -214,7 +332,7 @@
               "RelativeDocumentMoniker": "ProductOrderApi\\Controllers\\ProductsController.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "ProductOrderApi\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwBwAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T10:30:22.539Z",
               "EditorCaption": ""
@@ -222,180 +340,504 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\appsettings.json",
-              "RelativeDocumentMoniker": "ProductOrderApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\appsettings.json",
-              "RelativeToolTip": "ProductOrderApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-10T11:24:27.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderLine.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\OrderLine.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\OrderLine.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\OrderLine.cs",
-              "RelativeToolTip": "ProductOrderApi\\Models\\OrderLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:23:51.361Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Order.cs",
-              "RelativeToolTip": "ProductOrderApi\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:19:12.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Product.cs",
-              "RelativeToolTip": "ProductOrderApi\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:18:28.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\ProductService.cs",
-              "RelativeToolTip": "ProductOrderApi\\Services\\ProductService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:34:14.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductValidator.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductValidator.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\ProductValidator.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductValidator.cs",
-              "RelativeToolTip": "ProductOrderApi\\ProductValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T11:07:04.295Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ProductDtos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\ProductDtos.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\ProductDtos.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\ProductDtos.cs",
-              "RelativeToolTip": "ProductOrderApi\\DTOs\\ProductDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:29:33.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "ProductOrderApi\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "ProductOrderApi\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:51:21.34Z"
+              "WhenOpened": "2025-12-10T10:51:21.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ProductOrderApi\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:41:21.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\CartController.cs",
+              "RelativeToolTip": "ProductOrderApi\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:41:54.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "ProductOrderApi\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:40:10.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ProductOrderApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:43:33.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "ProductOrderApi\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:38:37.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Program.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Program.cs",
+              "RelativeToolTip": "ProductOrderApi\\Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:40:28.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
+              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:36:25.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IUserRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:56:41.344Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:57:33.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductDtos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\ProductDtos.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\ProductDtos.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\ProductDtos.cs",
+              "RelativeToolTip": "ProductOrderApi\\DTOs\\ProductDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:29:33.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\User.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:44:50.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ProductOrderApi\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:42:18.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "ProductOrderApi\\Repositories\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "ProductOrderApi\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:10:55.419Z"
+              "WhenOpened": "2025-12-10T10:10:55.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IOrderRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IOrderRepository.cs",
-              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "ProductStatus.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\ProductStatus.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\ProductStatus.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\ProductStatus.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\ProductStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:08:18.154Z"
+              "WhenOpened": "2025-12-11T14:11:32.297Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\OrderStatus.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T09:10:07.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Order.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:19:12.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderDtos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\OrderDtos.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\OrderDtos.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\OrderDtos.cs",
+              "RelativeToolTip": "ProductOrderApi\\DTOs\\OrderDtos.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:30:43.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwB8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:44:27.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDtos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\UserDtos.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\UserDtos.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\UserDtos.cs",
+              "RelativeToolTip": "ProductOrderApi\\DTOs\\UserDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:45:19.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartDtos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\CartDtos.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\CartDtos.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\CartDtos.cs",
+              "RelativeToolTip": "ProductOrderApi\\DTOs\\CartDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:53:43.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductOrderApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\appsettings.json",
+              "RelativeToolTip": "ProductOrderApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-10T11:24:27.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Product.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:18:28.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AuthServiceWithJwt.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\AuthServiceWithJwt.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\AuthServiceWithJwt.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\AuthServiceWithJwt.cs",
+              "RelativeToolTip": "ProductOrderApi\\Services\\AuthServiceWithJwt.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:17:02.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\CartRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Repositories\\CartRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\CartRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Repositories\\CartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:52:26.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\ICartRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\ICartRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Abstractions\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:51:44.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderLine.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\OrderLine.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\OrderLine.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\OrderLine.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\OrderLine.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:23:51.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ValidationErrorMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Middleware\\ValidationErrorMiddleware.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Middleware\\ValidationErrorMiddleware.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Middleware\\ValidationErrorMiddleware.cs",
+              "RelativeToolTip": "ProductOrderApi\\Middleware\\ValidationErrorMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:58:06.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "ProductOrderApi\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T00:24:32.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "ProductOrderApi.csproj",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductOrderApi.csproj",
               "RelativeDocumentMoniker": "ProductOrderApi\\ProductOrderApi.csproj",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductOrderApi.csproj",
               "RelativeToolTip": "ProductOrderApi\\ProductOrderApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-12-10T06:29:07.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IProductRepository.cs",
-              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "DocumentIndex": 35,
+              "Title": "RegisterAndLoginValidator.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Validation\\RegisterAndLoginValidator.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Validation\\RegisterAndLoginValidator.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Validation\\RegisterAndLoginValidator.cs",
+              "RelativeToolTip": "ProductOrderApi\\Validation\\RegisterAndLoginValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:33:20.029Z"
+              "WhenOpened": "2025-12-11T23:53:56.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\OrderService.cs",
-              "RelativeToolTip": "ProductOrderApi\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 36,
+              "Title": "CartAndOrderValidator.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Validation\\CartAndOrderValidator.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Validation\\CartAndOrderValidator.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Validation\\CartAndOrderValidator.cs",
+              "RelativeToolTip": "ProductOrderApi\\Validation\\CartAndOrderValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:39:39.738Z"
+              "WhenOpened": "2025-12-11T23:09:23.268Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\UnitOfWork.cs",
-              "RelativeToolTip": "ProductOrderApi\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 37,
+              "Title": "ProductValidator.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Validation\\ProductValidator.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Validation\\ProductValidator.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Validation\\ProductValidator.cs",
+              "RelativeToolTip": "ProductOrderApi\\Validation\\ProductValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:38:37.945Z"
+              "WhenOpened": "2025-12-10T11:07:04.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 38,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\ApiResponse.cs",
+              "RelativeToolTip": "ProductOrderApi\\DTOs\\ApiResponse.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:15:10.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "ProductOrderApi\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T09:41:03.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Picture.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Picture.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Picture.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Picture.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\Picture.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:27:39.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Category.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:26:52.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\CartItem.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:31:55.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\Cart.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:30:38.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "ProductOrderApi\\Models\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:17:24.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Domain\\DomainException.cs",
               "RelativeDocumentMoniker": "ProductOrderApi\\Domain\\DomainException.cs",
@@ -407,31 +849,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "ProductOrderApi\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 46,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IOrderRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:44:27.4Z"
+              "WhenOpened": "2025-12-10T10:08:18.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CurrentUserService.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\CurrentUserService.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Services\\CurrentUserService.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Services\\CurrentUserService.cs",
-              "RelativeToolTip": "ProductOrderApi\\Services\\CurrentUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 47,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IProductRepository.cs",
+              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T10:25:24.911Z"
+              "WhenOpened": "2025-12-10T06:33:20.029Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 48,
               "Title": "ICurrentUserService.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\ICurrentUserService.cs",
               "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\ICurrentUserService.cs",
@@ -440,30 +882,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-10T10:24:03.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
-              "RelativeToolTip": "ProductOrderApi\\Abstractions\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:36:25.308Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "OrderDtos.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\OrderDtos.cs",
-              "RelativeDocumentMoniker": "ProductOrderApi\\DTOs\\OrderDtos.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\DTOs\\OrderDtos.cs",
-              "RelativeToolTip": "ProductOrderApi\\DTOs\\OrderDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T06:30:43.361Z"
             }
           ]
         }
