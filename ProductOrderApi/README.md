@@ -11,11 +11,6 @@ A .NET-based API for managing products, categories, carts, and orders, built wit
 - [Tech Stack](#tech-stack)  
 - [Setup Instructions](#setup-instructions)  
 - [Assumptions](#assumptions)  
-- [Endpoints](#endpoints)  
-- [Notes](#notes)
-
----
-
 ## Overview
 
 The Product Order API allows users to:  
