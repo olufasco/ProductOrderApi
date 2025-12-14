@@ -10,7 +10,10 @@ A .NET-based API for managing products, categories, carts, and orders, built wit
 - [Features](#features)  
 - [Tech Stack](#tech-stack)  
 - [Setup Instructions](#setup-instructions)  
-- [Assumptions](#assumptions)  
+- [Assumptions](#assumptions)
+- [Endpoints](#endpoints)
+- [Notes](#notes) 
+ 
 ## Overview
 
 The Product Order API allows users to:  
@@ -91,3 +94,23 @@ json
 - Users can only view their own orders
 - Deleted cart items will not be recoverable
 - Deleting a cart item or order only affects the logged-in user
+
+### Endpoints
+
+| Method | Endpoint                | Description                     |
+| ------ | ----------------------- | ------------------------------- |
+| GET    | `/api/cart`             | Get current user’s cart         |
+| POST   | `/api/cart/add`         | Add a product to cart           |
+| POST   | `/api/cart/checkout`    | Checkout cart and create order  |
+| DELETE | `/api/cart/item/{sku}`  | Remove a product from cart      |
+| GET    | `/api/orders`           | Get all orders for current user |
+| POST   | `/api/orders`           | Add a new order                 |
+| DELETE | `/api/orders/{orderId}` | Delete an order                 |
+
+### Notes
+
+- API responses are wrapped in ApiResponse<T> for consistency
+- Uses Unit of Work pattern to manage repositories and transactions
+- Designed for extensibility: more repositories and DTOs can be added easily
+- Circular references are handled to prevent JSON serialization errors
+- Manual mapping is used, but can be replaced with AutoMapper for   scalability
