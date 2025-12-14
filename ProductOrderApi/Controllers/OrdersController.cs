@@ -1,97 +1,102 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ProductOrderApi.Data;
-using ProductOrderApi.DTOs;
-using ProductOrderApi.Models;
+using ProductOrderApi.API.ProductOrderApi.Application.DTOs;
+using ProductOrderApi.Domain.Entities;
+using System.Security.Claims;
 
-namespace ProductOrderApi.Controllers
+[ApiController]
+[Route("api/orders")]
+[Authorize]
+public class OrdersController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    [Authorize] // protect all order endpoints
-    public class OrdersController : BaseController
+    private readonly IUnitOfWork _uow;
+    public OrdersController(IUnitOfWork uow) => _uow = uow;
+
+    private Guid GetUserId()
     {
-        private readonly AppDbContext _db;
-        public OrdersController(AppDbContext db) => _db = db;
+        var claim = User?.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+        if (!Guid.TryParse(claim, out var userId))
+            throw new UnauthorizedAccessException("Invalid user ID in token.");
+        return userId;
+    }
 
-        [HttpPost("checkout")]
-        public async Task<IActionResult> Checkout(OrderDtos.CheckoutDto dto, CancellationToken ct)
+    // Get all orders for the user
+    [HttpGet]
+    public async Task<IActionResult> GetUserOrders()
+    {
+        var orders = await _uow.Orders.GetByUserIdAsync(GetUserId());
+
+        var dtos = orders.Select(o => new OrderDto
         {
-            var cart = await _db.Carts
-                .Include(c => c.Items)
-                .ThenInclude(i => i.Product)
-                .FirstOrDefaultAsync(c => c.Id == dto.CartId, ct);
-
-            if (cart == null) return FailResponse<Order>("Cart not found");
-
-            var order = new Order
+            Id = o.Id,
+            TotalAmount = o.TotalAmount,
+            Items = o.Items.Select(i => new OrderItemDto
             {
-                UserId = cart.UserId,
-                CustomerName = dto.CustomerName,
-                TotalAmount = cart.TotalAmount,
-                OrderLines = cart.Items.Select(i => new OrderLine
-                {
-                    ProductId = i.ProductId,
-                    Sku = i.Sku,
-                    Quantity = i.Quantity,
-                    UnitPrice = i.UnitPrice,
-                    LineTotal = i.LineTotal
-                }).ToList()
-            };
+                SKU = i.SKU,
+                Quantity = i.Quantity,
+                UnitPrice = i.UnitPrice
+            }).ToList()
+        }).ToList();
 
-            _db.Orders.Add(order);
-            _db.Carts.Remove(cart); // clear cart after checkout
-            await _db.SaveChangesAsync(ct);
+        return Ok(ApiResponse<IEnumerable<OrderDto>>.Ok(dtos));
+    }
 
-            return OkResponse(order, "Order placed successfully");
-        }
+    // Add a new order
+    [HttpPost]
+    public async Task<IActionResult> AddOrder(CreateOrderDto dto)
+    {
+        var userId = GetUserId();
 
-        [HttpGet]
-        public async Task<IActionResult> GetAll(CancellationToken ct)
+        if (dto.Items == null || !dto.Items.Any())
+            return BadRequest(ApiResponse<string>.Fail("Order must have at least one item."));
+
+        using var transaction = await _uow.DbContext.Database.BeginTransactionAsync();
+
+        var order = new Order { UserId = userId };
+        decimal total = 0;
+
+        foreach (var item in dto.Items)
         {
-            var orders = await _db.Orders
-                .Include(o => o.OrderLines)
-                .ToListAsync(ct);
+            var product = await _uow.Products.GetBySkuAsync(item.SKU);
+            if (product == null)
+                return BadRequest(ApiResponse<string>.Fail($"Product {item.SKU} not found"));
 
-            return OkResponse(orders, "Orders retrieved successfully");
+            if (product.StockQuantity < item.Quantity)
+                return BadRequest(ApiResponse<string>.Fail($"Not enough stock for {item.SKU}"));
+
+            product.StockQuantity -= item.Quantity;
+            _uow.Products.Update(product);
+
+            order.Items.Add(new OrderItem
+            {
+                ProductId = product.Id,
+                SKU = item.SKU,
+                Quantity = item.Quantity,
+                UnitPrice = product.Price
+            });
+
+            total += item.Quantity * product.Price;
         }
 
-        [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(Guid id, CancellationToken ct)
-        {
-            var order = await _db.Orders
-                .Include(o => o.OrderLines)
-                .FirstOrDefaultAsync(o => o.Id == id, ct);
+        order.TotalAmount = total;
+        await _uow.Orders.AddAsync(order);
+        await _uow.SaveChangesAsync();
+        await transaction.CommitAsync();
 
-            return order == null
-                ? FailResponse<Order>("Order not found")
-                : OkResponse(order, "Order retrieved successfully");
-        }
+        return Ok(ApiResponse<Guid>.Ok(order.Id, "Order placed successfully"));
+    }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(Guid id, [FromBody] OrderDtos.UpdateOrderDto dto, CancellationToken ct)
-        {
-            var order = await _db.Orders.Include(o => o.OrderLines).FirstOrDefaultAsync(o => o.Id == id, ct);
-            if (order == null) return FailResponse<Order>("Order not found");
+    // Delete an order
+    [HttpDelete("{orderId:guid}")]
+    public async Task<IActionResult> DeleteOrder(Guid orderId)
+    {
+        var order = await _uow.Orders.GetByIdAsync(orderId);
+        if (order == null || order.UserId != GetUserId())
+            return NotFound(ApiResponse<string>.Fail("Order not found"));
 
-            order.CustomerName = dto.CustomerName ?? order.CustomerName;
-            order.Status = dto.Status ?? order.Status;
+        _uow.Orders.Delete(order);
+        await _uow.SaveChangesAsync();
 
-            await _db.SaveChangesAsync(ct);
-            return OkResponse(order, "Order updated successfully");
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(Guid id, CancellationToken ct)
-        {
-            var order = await _db.Orders.FirstOrDefaultAsync(o => o.Id == id, ct);
-            if (order == null) return FailResponse<Order>("Order not found");
-
-            _db.Orders.Remove(order);
-            await _db.SaveChangesAsync(ct);
-
-            return OkResponse("Order deleted successfully");
-        }
+        return Ok(ApiResponse<string>.Ok("Order deleted successfully"));
     }
 }

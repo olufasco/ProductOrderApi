@@ -4471,9 +4471,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductOrderApi.csproj",
-      "projectName": "ProductOrderApi",
-      "projectPath": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductOrderApi.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductOrderApi.API.csproj",
+      "projectName": "ProductOrderApi.API",
+      "projectPath": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\ProductOrderApi.API.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\obj\\",
       "projectStyle": "PackageReference",
