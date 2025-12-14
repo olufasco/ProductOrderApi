@@ -94,21 +94,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\README.md",
-              "RelativeDocumentMoniker": "ProductOrderApi\\README.md",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\README.md",
-              "RelativeToolTip": "ProductOrderApi\\README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-14T10:07:52.707Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -175,6 +162,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\README.md",
+              "RelativeDocumentMoniker": "ProductOrderApi\\README.md",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\README.md",
+              "RelativeToolTip": "ProductOrderApi\\README.md",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAgwHkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T10:07:52.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ProductOrderApi\\ProductOrderApi\\Controllers\\CartController.cs",
@@ -183,8 +183,7 @@
               "RelativeToolTip": "ProductOrderApi\\Controllers\\CartController.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAgwGQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T05:07:16.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T05:07:16.645Z"
             },
             {
               "$type": "Document",
@@ -196,8 +195,7 @@
               "RelativeToolTip": "ProductOrderApi\\ProductOrderApi.Application\\Interfaces\\ICartRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T05:54:36.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T05:54:36.618Z"
             },
             {
               "$type": "Document",
@@ -209,8 +207,7 @@
               "RelativeToolTip": "ProductOrderApi\\ProductOrderApi.Infrastructure\\Repositories\\CartRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T08:15:03.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T08:15:03.812Z"
             },
             {
               "$type": "Document",
