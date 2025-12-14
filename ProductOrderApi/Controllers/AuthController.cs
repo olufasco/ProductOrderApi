@@ -1,76 +1,74 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using ProductOrderApi.Common;
-using ProductOrderApi.Data;
-using ProductOrderApi.Models;
-using ProductOrderApi.Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using ProductOrderApi.Application.DTOs;
+using ProductOrderApi.Domain.Entities;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 
 namespace ProductOrderApi.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    public class AuthController : BaseController
+    [Route("api/auth")]
+    public class AuthController : ControllerBase
     {
-        private readonly IAuthService _authService;
-        private readonly AppDbContext _db;
+        private readonly IUnitOfWork _uow;
+        private readonly IConfiguration _config;
 
-        public AuthController(IAuthService authService, AppDbContext db)
+        public AuthController(IUnitOfWork uow, IConfiguration config)
         {
-            _authService = authService;
-            _db = db;
+            _uow = uow;
+            _config = config;
         }
 
         [HttpPost("register")]
-        [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] RegisterRequest request, CancellationToken ct)
+        public async Task<IActionResult> Register(RegisterUserDto dto)
         {
-            // Check if email already exists
-            var existing = await _db.Users.FirstOrDefaultAsync(u => u.Email == request.Email, ct);
-            if (existing != null)
-                return FailResponse<object>("Email already registered");
+            // Ensure correct User type
+            User? existing = await _uow.Users.GetByEmailAsync(dto.Email);
+            if (existing is not null)
+                return BadRequest(ApiResponse<string>.Fail("Email already exists"));
 
             var user = new User
             {
-                Id = Guid.NewGuid(),
-                Email = request.Email,
-                Role = request.Role ?? "User",
-                // Hash password before saving
-                PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password)
+                Email = dto.Email,
+                PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password)
             };
 
-            _db.Users.Add(user);
-            await _db.SaveChangesAsync(ct);
+            await _uow.Users.AddAsync(user);
+            await _uow.SaveChangesAsync();
 
-            var token = _authService.GenerateToken(user);
-            return OkResponse(new { token }, "Registration successful");
+            return Ok(ApiResponse<Guid>.Ok(user.Id, "User registered successfully"));
         }
 
         [HttpPost("login")]
-        [AllowAnonymous]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request, CancellationToken ct)
+        public async Task<IActionResult> Login(LoginUserDto dto)
         {
-            var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == request.Email, ct);
-            if (user == null || !BCrypt.Net.BCrypt.Verify(request.Password, user.PasswordHash))
-                return FailResponse<object>("Invalid credentials");
+            User? user = await _uow.Users.GetByEmailAsync(dto.Email);
+            if (user is null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
+                return Unauthorized(ApiResponse<string>.Fail("Invalid credentials"));
 
-            var token = _authService.GenerateToken(user);
-            return OkResponse(new { token }, "Login successful");
+            var token = GenerateJwtToken(user);
+            return Ok(ApiResponse<string>.Ok(token, "Login successful"));
         }
 
-        [HttpGet("me")]
-        [Authorize]
-        public IActionResult Me()
+        private string GenerateJwtToken(User user)
         {
-            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var email = User.FindFirstValue(ClaimTypes.Email);
-            var role = User.FindFirstValue(ClaimTypes.Role);
+            var key = Encoding.ASCII.GetBytes(_config["Jwt:Secret"] ?? "SuperSecretKey123!");
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new[]
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email)
+                }),
+                Expires = DateTime.UtcNow.AddDays(7),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
 
-            return OkResponse(new { userId, email, role }, "Authenticated user info");
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
         }
     }
-
-    public record LoginRequest(string Email, string Password);
-    public record RegisterRequest(string Email, string Password, string? Role);
 }
