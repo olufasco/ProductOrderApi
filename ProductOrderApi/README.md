@@ -97,15 +97,33 @@ json
 
 ### Endpoints
 
-| Method | Endpoint                | Description                     |
-| ------ | ----------------------- | ------------------------------- |
-| GET    | `/api/cart`             | Get current user’s cart         |
-| POST   | `/api/cart/add`         | Add a product to cart           |
-| POST   | `/api/cart/checkout`    | Checkout cart and create order  |
-| DELETE | `/api/cart/item/{sku}`  | Remove a product from cart      |
-| GET    | `/api/orders`           | Get all orders for current user |
-| POST   | `/api/orders`           | Add a new order                 |
-| DELETE | `/api/orders/{orderId}` | Delete an order                 |
+| Method         | Endpoint                  | Description                     |
+| -------------- | ------------------------- | ------------------------------- |
+|   **Auth**     |                           |                                 |
+| POST           | `/api/auth/register`      | Register user                   |
+| POST           | `/api/auth/login`         | Login user                      |
+|  **Products**  |                           |                                 |
+| GET            | `/api/products`           | Get all products                |
+| GET            | `/api/products/{id}`      | Get product by ID               |
+| POST           | `/api/products`           | Create a new product            |
+| PUT            | `/api/products/{id}`      | Update an existing product      |
+| DELETE         | `/api/products/{id}`      | Delete a product                |
+| **Categories** |                           |                                 |
+| GET            | `/api/categories`         | Get all categories              |
+| GET            | `/api/categories/{id}`    | Get category by ID              |
+| POST           | `/api/categories`         | Create a new category           |
+| PUT            | `/api/categories/{id}`    | Update an existing category     |
+| DELETE         | `/api/categories/{id}`    | Delete a category               |
+| **Cart**       |                           |                                 |
+| GET            | `/api/Cart`               | Get current user’s cart         |
+| POST           | `/api/Cart/add`           | Add a product to cart           |
+| DELETE         | `/api/Cart/item/{sku}`    | Remove a product from cart      |
+| POST           | `/api/Cart/checkout`      | Checkout cart and create order  |
+| DELETE         | `/api/Cart/clear`         | Clear all items from cart       |
+| **Orders**     |                           |                                 |
+| GET            | `/api/orders`             | Get all orders for current user |
+| POST           | `/api/orders`             | Add a new order                 |
+| DELETE         | `/api/orders/{orderId}`   | Delete an order                 |
 
 ### Notes
 
